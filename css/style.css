@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #eee;
+  color: white;
+}
+
+.bg-image{
+  width:100%;
+  height: 690px;
+  background-image: url("../images/NewYork.jpg");
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header{
+  width: 1200;
+  padding: 20px;
+}
+
+nav>ul>li{
+  list-style: none;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+nav>ul>li>a{
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 20px 0 20px;
+}
+
+nav>ul{
+  position: absolute;
+  right: 150px;
+}
+
+
+.btn{
+  width: 130px;
+  height: 40px;
+  background-image: linear-gradient(to bottom right, grey, white);
+  font-family: 'PT Serif', serif;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+}
+
+.logo{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  position: absolute;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+
+
+.main-part{
+  width: 500px;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  position: relative;
+  top: 250px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.brand-quote{
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  font-size: 56px;
+  padding-left: 20px;
+  position: relative;
+  top: 180px;
+}
+
+.description{
+  position: relative;
+  top: 200px;
+  padding-left: 40px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
